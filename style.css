@@ -1,0 +1,223 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Gaya Umum */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  width: 80%; /* Lebar wrapper default */
+  margin: 0 auto; /* Posisi wrapper di tengah */
+  padding: 25px; /* Padding wrapper */
+  background-color: #f0f0f0; /* Warna latar belakang wrapper */
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%; /* Lebar wrapper di layar kecil */
+    padding: 10px; /* Padding wrapper di layar kecil */
+  }
+}
+
+.wrepper2{
+  margin: auto;
+  position: relative;
+}
+.logo {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: Courier;
+  color: #364f6b;
+
+}
+.menu {
+  float: right;
+}
+nav {
+  width: 105%;
+  display: flex;
+  margin: auto;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #FFFFFF;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+    display: block;
+  }
+  nav ul li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+section {
+  margin: auto;
+  display:flex;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+  section {
+    padding: 10px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.kolom {
+  margin: auto;
+  padding: auto;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'comic sans ms';
+  color: #364f6b;
+  margin: 10px;
+}
+
+.tagline {
+  font-family:'comic sans ms';
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+  margin: 10px;
+}
+
+.pendahuluan{
+  margin: 10px;
+}
+
+h4{
+  margin: 10px;
+}
+
+a.tbl-biru {
+  background: #3f7;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container {
+  width: 90;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%; /* Lebar kontainer di layar kecil */
+    padding: 10px; /* Padding kontainer di layar kecil */
+  }
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+input[type="text"] {
+  width: 100px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
